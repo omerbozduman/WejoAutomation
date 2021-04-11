@@ -1,0 +1,1562 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-11T15:26:30.843Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2455434000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify statistics on homepage",
+        "description": "",
+        "id": "homepage;verify-statistics-on-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 102027000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4499382000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open Wejo website",
+            "match": {
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_open_wejo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4137000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify page title is \"Wejo | The global leader in connected car data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wejo | The global leader in connected car data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3267249000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify below statistics",
+            "match": {
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_below_statistics(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Active vehicles",
+                  "10.7 Million"
+                ]
+              },
+              {
+                "cells": [
+                  "Miles curated",
+                  "354 Billion"
+                ]
+              },
+              {
+                "cells": [
+                  "Data points",
+                  "9.1 Trillion"
+                ]
+              },
+              {
+                "cells": [
+                  "Journeys",
+                  "44.4 Billion"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wejo"
+          },
+          {
+            "name": "@homepage"
+          }
+        ]
+      }
+    ],
+    "name": "HomePage",
+    "description": "",
+    "id": "homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/HomePage/Statistics.feature",
+    "tags": [
+      {
+        "name": "@wejo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@homepage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-11T15:26:30.845Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2612540000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "verify newsroom page All",
+        "description": "",
+        "id": "newsroom-page;verify-newsroom-page-\u003ctype\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 102428000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4430217000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open Wejo website",
+            "match": {
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_open_wejo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3318000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify page title is \"Wejo | The global leader in connected car data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wejo | The global leader in connected car data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 743717000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to \"Newsroom\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_navigate_to_module(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6155000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify page title is \"Newsroom | Wejo | The latest news and insights from Wejo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom | Wejo | The latest news and insights from Wejo\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41538000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the sub module \"All\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"All\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.iClickTheSubModule(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 519945000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the first blog",
+            "match": {
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_click_the_first_blog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19347000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify \"Share this article\" text is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Share this article\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_text_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77456000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify \"LinkedIn,Twitter,Facebook\" links",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LinkedIn,Twitter,Facebook\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_links(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wejo"
+          },
+          {
+            "name": "@newsroom"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-11T15:26:39.417Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1317063000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "verify newsroom page News",
+        "description": "",
+        "id": "newsroom-page;verify-newsroom-page-\u003ctype\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 99234000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2369978000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open Wejo website",
+            "match": {
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_open_wejo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2653000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify page title is \"Wejo | The global leader in connected car data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wejo | The global leader in connected car data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 848656000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to \"Newsroom\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_navigate_to_module(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8771000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify page title is \"Newsroom | Wejo | The latest news and insights from Wejo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom | Wejo | The latest news and insights from Wejo\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34385000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the sub module \"News\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"News\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.iClickTheSubModule(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 593749000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the first blog",
+            "match": {
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_click_the_first_blog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23133000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify \"Share this article\" text is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Share this article\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_text_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78916000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify \"LinkedIn,Twitter,Facebook\" links",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LinkedIn,Twitter,Facebook\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_links(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wejo"
+          },
+          {
+            "name": "@newsroom"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-11T15:26:44.799Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1200795000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "verify newsroom page Blog",
+        "description": "",
+        "id": "newsroom-page;verify-newsroom-page-\u003ctype\u003e;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 100910000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2316409000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open Wejo website",
+            "match": {
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_open_wejo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2753000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify page title is \"Wejo | The global leader in connected car data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wejo | The global leader in connected car data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 472895000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to \"Newsroom\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_navigate_to_module(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2505000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify page title is \"Newsroom | Wejo | The latest news and insights from Wejo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom | Wejo | The latest news and insights from Wejo\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32455000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the sub module \"Blog\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blog\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.iClickTheSubModule(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 727180000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the first blog",
+            "match": {
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_click_the_first_blog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21671000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify \"Share this article\" text is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Share this article\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_text_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79567000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify \"LinkedIn,Twitter,Facebook\" links",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LinkedIn,Twitter,Facebook\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_links(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wejo"
+          },
+          {
+            "name": "@newsroom"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-11T15:26:49.762Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1232690000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "verify newsroom page White papers",
+        "description": "",
+        "id": "newsroom-page;verify-newsroom-page-\u003ctype\u003e;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 97940000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2414480000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open Wejo website",
+            "match": {
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_open_wejo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2680000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify page title is \"Wejo | The global leader in connected car data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wejo | The global leader in connected car data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 436400000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to \"Newsroom\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_navigate_to_module(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10547000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify page title is \"Newsroom | Wejo | The latest news and insights from Wejo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom | Wejo | The latest news and insights from Wejo\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33442000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the sub module \"White papers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"White papers\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.iClickTheSubModule(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 794421000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the first blog",
+            "match": {
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_click_the_first_blog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22329000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify \"Share this article\" text is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Share this article\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_text_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 77304000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify \"LinkedIn,Twitter,Facebook\" links",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LinkedIn,Twitter,Facebook\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_links(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wejo"
+          },
+          {
+            "name": "@newsroom"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-11T15:26:54.890Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1260237000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "verify newsroom page Webinars",
+        "description": "",
+        "id": "newsroom-page;verify-newsroom-page-\u003ctype\u003e;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 94823000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2298581000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open Wejo website",
+            "match": {
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_open_wejo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3034000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify page title is \"Wejo | The global leader in connected car data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wejo | The global leader in connected car data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 446170000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to \"Newsroom\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_navigate_to_module(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9073000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify page title is \"Newsroom | Wejo | The latest news and insights from Wejo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom | Wejo | The latest news and insights from Wejo\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32852000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the sub module \"Webinars\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Webinars\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.iClickTheSubModule(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 603722000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the first blog",
+            "match": {
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_click_the_first_blog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22292000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify \"Share this article\" text is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Share this article\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_text_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79177000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify \"LinkedIn,Twitter,Facebook\" links",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LinkedIn,Twitter,Facebook\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_links(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wejo"
+          },
+          {
+            "name": "@newsroom"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-11T15:26:59.745Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1205416000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "verify newsroom page Life at Wejo",
+        "description": "",
+        "id": "newsroom-page;verify-newsroom-page-\u003ctype\u003e;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 95427000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2359286000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open Wejo website",
+            "match": {
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_open_wejo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2511000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify page title is \"Wejo | The global leader in connected car data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wejo | The global leader in connected car data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 424856000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigate to \"Newsroom\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_navigate_to_module(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2541000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify page title is \"Newsroom | Wejo | The latest news and insights from Wejo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Newsroom | Wejo | The latest news and insights from Wejo\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32062000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click the sub module \"Life at Wejo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Life at Wejo\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.iClickTheSubModule(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 571538000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click the first blog",
+            "match": {
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_click_the_first_blog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21873000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify \"Share this article\" text is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Share this article\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_text_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78356000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify \"LinkedIn,Twitter,Facebook\" links",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LinkedIn,Twitter,Facebook\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.NewsroomPageStepDefs.i_verify_links(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wejo"
+          },
+          {
+            "name": "@newsroom"
+          }
+        ]
+      }
+    ],
+    "name": "Newsroom Page",
+    "description": "",
+    "id": "newsroom-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NewsroomPage/Newsroom.feature",
+    "tags": [
+      {
+        "name": "@wejo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@newsroom",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-11T15:26:30.848Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2464784000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "verify products types",
+        "description": "",
+        "id": "products-\u0026-services;verify-products-types",
+        "after": [
+          {
+            "result": {
+              "duration": 229462000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3942886000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open Wejo website",
+            "match": {
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_open_wejo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4980000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify page title is \"Wejo | The global leader in connected car data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wejo | The global leader in connected car data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1075644000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click \"Products\" submodule under \"Products \u0026 Services\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Products\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Products \u0026 Services\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.wejo.step_definitions.WhyWejoStepDefs.i_click_submodule_under_module(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35207000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify page sub title \"Our products\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Our products\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.wejo.step_definitions.ProductsServicesPageStepDefs.i_verify_page_sub_title_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137804000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify below product are displayed",
+            "match": {
+              "location": "com.wejo.step_definitions.ProductsServicesPageStepDefs.i_verify_below_product_are_displayed(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Wejo Journey Intelligence"
+                ]
+              },
+              {
+                "cells": [
+                  "Wejo Traffic Intelligence"
+                ]
+              },
+              {
+                "cells": [
+                  "Vehicle movements"
+                ]
+              },
+              {
+                "cells": [
+                  "Driving events"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wejo"
+          },
+          {
+            "name": "@products"
+          }
+        ]
+      }
+    ],
+    "name": "Products \u0026 Services",
+    "description": "",
+    "id": "products-\u0026-services",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ProductServicesPage/Products.feature",
+    "tags": [
+      {
+        "name": "@wejo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@products",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-11T15:26:30.847Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2455171000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify start your journey form under overview sub module with valid credentials",
+        "description": "",
+        "id": "why-wejo-page---overview-sub-module;verify-start-your-journey-form-under-overview-sub-module-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 147681000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.wejo.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4263123000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open Wejo website",
+            "match": {
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_open_wejo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2816000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify page title is \"Wejo | The global leader in connected car data\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wejo | The global leader in connected car data\"",
+                  "offset": 23
+                }
+              ],
+              "location": "com.wejo.step_definitions.HomePageStepDefs.i_verify_page_title_is(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 948394000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click \"Overview\" submodule under \"Why Wejo\" module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Overview\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Why Wejo\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.wejo.step_definitions.WhyWejoStepDefs.i_click_submodule_under_module(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22297000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify \"Start your journey\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Start your journey\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.wejo.step_definitions.WhyWejoStepDefs.i_verify_is_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241145000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I fill the form with valid data",
+            "match": {
+              "location": "com.wejo.step_definitions.WhyWejoStepDefs.i_fill_the_form_with_valid_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92685000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click the Submit button",
+            "match": {
+              "location": "com.wejo.step_definitions.WhyWejoStepDefs.iClickTheSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 561761000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I verify form success message \"Your request for information has been submitted, we will be in touch shortly.\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your request for information has been submitted, we will be in touch shortly.\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.wejo.step_definitions.WhyWejoStepDefs.iVerifyFormSuccessMessageIsDisplayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wejo"
+          },
+          {
+            "name": "@overview"
+          },
+          {
+            "name": "@positive"
+          }
+        ]
+      }
+    ],
+    "name": "Why Wejo Page - Overview sub module",
+    "description": "",
+    "id": "why-wejo-page---overview-sub-module",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/WhyWejoPage/Overview.feature",
+    "tags": [
+      {
+        "name": "@wejo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@overview",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  }
+]

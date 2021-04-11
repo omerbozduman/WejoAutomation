@@ -1,0 +1,15 @@
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/utilities/Driver.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/utilities/ConfigurationReader.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/pages/ProductsServicesPage.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/pages/HomePage.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/utilities/Pages.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/pages/BasePage.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/step_definitions/HomePageStepDefs.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/step_definitions/ProductsServicesPageStepDefs.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/step_definitions/NewsroomPageStepDefs.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/runner/CukesRunner.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/pages/NewsroomPage.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/step_definitions/Hooks.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/utilities/BrowserUtils.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/step_definitions/WhyWejoStepDefs.java
+/Users/omerbozduman/IdeaProjects/WejoAutomation/src/test/java/com/wejo/pages/WhyWejoPage.java
